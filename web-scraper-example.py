@@ -24,4 +24,3 @@ df = pd.DataFrame(records, columns=['date', 'lie', 'explanation', 'url'])
 df['date'] = pd.to_datetime(df['date'])  
 df.to_csv('trump_lies.csv', index=False, encoding='utf-8') 
 
-#based on https://github.com/justmarkham/trump-lies
